@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:focus-visible {
+    outline-color: #46df46;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::after,
+    *::before {
+        animation: none;
+        transition: none;
+    }
+}
